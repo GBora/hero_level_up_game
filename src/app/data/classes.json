@@ -1,0 +1,64 @@
+{
+    "classes": [
+        {
+            "name":"Crusader",
+            "id": "crusader",
+            "description": "The martial class of the Pearl Empire.",
+            "factions": ["pearl"]
+        },
+        {
+            "name":"Cleric",
+            "id": "cleric",
+            "description": "The magic class of the Pearl Empire.",
+            "factions": ["pearl"]
+        },
+        {
+            "name":"Battle Alchemist",
+            "id": "battle_alchemist",
+            "description": "The martial class of the Sapphire League.",
+            "factions": ["sapphire"]
+        },
+        {
+            "name":"Wizard",
+            "id": "wizard",
+            "description": "The magic class of the Sapphire League.",
+            "factions": ["sapphire"]
+        },
+        {
+            "name":"Blackguard",
+            "id": "blackguard",
+            "description": "The martial class of the Obsidian Realms.",
+            "factions": ["obsidian"]
+        },
+        {
+            "name":"Necromancer",
+            "id": "necromancer",
+            "description": "The magic class of the Obsidian Realms.",
+            "factions": ["obsidian"]
+        },
+        {
+            "name":"Rogue",
+            "id": "rogue",
+            "description": "The martial class of the Ruby Freeholds.",
+            "factions": ["ruby"]
+        },
+        {
+            "name":"Warlock",
+            "id": "warlock",
+            "description": "The magic class of the Ruby Freeholds.",
+            "factions": ["ruby"]
+        },
+        {
+            "name":"Ranger",
+            "id": "ranger",
+            "description": "The martial class of the Emerald Courts.",
+            "factions": ["emerald"]
+        },
+        {
+            "name":"Druid",
+            "id": "druid",
+            "description": "The magic class of the Emerald Courts.",
+            "factions": ["emerald"]
+        }
+    ]
+}

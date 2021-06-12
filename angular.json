@@ -50,7 +50,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/bootstrap/dist/css/bootstrap.css"
             ],
             "scripts": []
           },
@@ -145,6 +146,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "heroes-level-up"
+    }
+  },
+  "defaultProject": "heroes-level-up",
+  "cli": {
+    "analytics": "d4effc8c-e488-4c4b-9b08-acd55545cf0b"
+  }
 }

@@ -1,0 +1,60 @@
+<div class="">
+    <h1>
+        {{ 'new_game.title' | translate }}
+    </h1>
+
+    <div class="mt-3">
+        {{ 'new_game.select' | translate }}
+    </div>
+
+    <div class="mt-3">
+        <select 
+            name=""
+            id="" 
+            class="form-control"
+            [(ngModel)]="this.selectedFaction"
+            (change)="factionSelected()">
+            <option *ngFor="let faction of this.factions" [ngValue]="faction">{{ faction.name }}</option>
+        </select>
+    </div>
+
+    <div class="mt-3" *ngIf="this.selectedFaction">
+       <div>
+            {{ this.selectedFaction.description }}
+       </div>
+       <div>
+           <div class="mtb-2 mt-3">{{ 'new_game.classes' | translate }}</div> 
+           <span *ngFor="let class of this.selectedFaction.classes; let last = last">
+               {{ class }}<span *ngIf="!last">, </span>
+           </span>
+       </div>
+    </div>
+
+    <div class="mt-3" *ngIf="this.selectedFaction">
+        <select 
+          name=""
+          id=""
+          class="form-control"
+          [(ngModel)]="this.selectedClass">
+          <option *ngFor="let heroClass of this.availableClasses" [ngValue]="heroClass">{{ heroClass.name }}</option>
+        </select>
+    </div>
+
+    <div class="mt-3" *ngIf="this.selectedClass">
+        <div>
+            {{ this.selectedClass.description }}
+        </div>
+        <div class="mt-3 d-flex">
+            <div class="align-middle">{{ 'new_game.name' | translate }}</div>
+            <input type="text" class="form-control" [(ngModel)]="this.heroName">
+        </div>
+        <div class="mt-3">
+            <button 
+                class="btn btn-primary"
+                (click)="this.createHero()"
+                [disabled]="!(this.selectedFaction && this.selectedClass && this.heroName)">
+                {{ 'new_game.begin' | translate }}
+            </button>
+        </div>
+    </div>
+</div>

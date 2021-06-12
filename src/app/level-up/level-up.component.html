@@ -1,0 +1,16 @@
+<div>
+    <div class="text-center">
+        <h1>
+            {{ 'level_up.title' | translate }}
+        </h1>
+    </div>
+
+    <div class="mt-3">
+        <span>{{ 'level_up.con' | translate }} {{ this.gameState.heroName }} !</span>
+    </div>
+
+    <div class="mt-3 d-flex">
+        <div class="col-8">{{ 'level_up.remaining' | translate }}</div>
+        <div class="col-6">{{ this.gameState.levelUps }}</div>
+    </div>
+</div>

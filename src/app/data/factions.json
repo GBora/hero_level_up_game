@@ -1,0 +1,34 @@
+{
+    "factions": [
+        {
+            "name": "Pearl Empire",
+            "id": "pearl",
+            "description": "Faith, Order, Tradition",
+            "classes": ["Crusader", "Cleric"]
+        },
+        {
+            "name": "Sapphire League",
+            "id": "sapphire",
+            "description": "Knowledge, Mistery, Inovation",
+            "classes": ["Battle Alchemist", "Wizard"]
+        },
+        {
+            "name": "Obsidian Realms",
+            "id": "obsidian",
+            "description": "Survival, Pride, Perseverence",
+            "classes": ["Blackguard", "Necromancer"]
+        },
+        {
+            "name": "Ruby Freeholds",
+            "id": "ruby",
+            "description": "Freedom, Ambition, Secrets",
+            "classes": ["Rogue", "Warlock"]
+        },
+        {
+            "name": "Emerald Courts",
+            "id": "emerald",
+            "description": "Balance, Growth, Wonder",
+            "classes": ["Ranger", "Druid"]
+        }
+    ]
+}

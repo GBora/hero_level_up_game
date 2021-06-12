@@ -1,0 +1,14 @@
+{
+    "new_game": {
+        "title": "New Game",
+        "select": "Please select a class for your new hero, first by deciding what faction they are aligned with.",
+        "classes": "Available classes: ",
+        "begin": "Begin Game",
+        "name": "Hero Name"
+    },
+    "level_up": {
+        "title": "Level Up!",
+        "con": "Congratulations",
+        "remaining":"Level ups remaining: "
+    }
+}
