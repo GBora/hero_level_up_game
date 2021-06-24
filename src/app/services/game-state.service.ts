@@ -20,7 +20,7 @@ export class GameStateService {
     try {
       const raw = localStorage.getItem(this.localStorageKey);
       return JSON.parse(raw) as IGameState;
-    } catch(err) {
+    } catch (err) {
       console.error(err);
     }
   }

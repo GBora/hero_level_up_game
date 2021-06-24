@@ -2,6 +2,7 @@ export interface ISkill {
     id: string;
     name: string;
     level: number;
+    type: string;
     levelDescription: string;
     description: string;
     attack?: number;

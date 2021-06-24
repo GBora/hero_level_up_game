@@ -1,5 +1,188 @@
 {
     "skills": [
-        
+        {
+            "id": "healing",
+            "name": "Healing",
+            "level": 1,
+            "type": "magic",
+            "levelDescription": "Basic",
+            "description": "+1 Knowledge",
+            "knowledge": 1,
+            "chances": {
+                "base": 10,
+                "factionBuff": [{ "id": "pearl", "buff": 10 }, { "id": "emerald", "buff": 5 }],
+                "factionDebuff": [{ "id": "ruby", "debuff": 5 }],
+                "classBuff": [{ "id": "crusader", "buff": 5 }, { "id": "druid", "buff": 10 }]
+            }
+        },
+        {
+            "id": "tactics",
+            "name": "Tactics",
+            "level": 1,
+            "type": "martial",
+            "levelDescription": "Basic",
+            "description": "+1 Attack + 1 Defense",
+            "attack": 1,
+            "defense": 1,
+            "chances": {
+                "base": 5
+            }
+        },
+        {
+            "id": "archery",
+            "name": "Archery",
+            "level": 1,
+            "type": "martial",
+            "levelDescription": "Basic",
+            "description": "+1 Attack",
+            "attack": 1,
+            "chances": {
+                "base": 10,
+                "factionBuff": [{ "id": "pearl", "buff": 5 }, { "id": "emerald", "buff": 10 }],
+                "factionDebuff": [{ "id": "obsidian", "debuff": 10 }],
+                "classBuff": [{ "id": "ranger", "buff": 10 }]
+            }
+        },
+        {
+            "id": "scouting",
+            "name": "Scouting",
+            "level": 1,
+            "type": "martial",
+            "levelDescription": "Basic",
+            "description": "+1 Attack +100 Gold",
+            "attack": 1,
+            "gold": 100,
+            "chances": {
+                "base": 3,
+                "factionBuff": [{ "id": "ruby", "buff": 10 }, { "id": "emerald", "buff": 3 }],
+                "classBuff": [{ "id": "ranger", "buff": 5 }]
+            }
+        },
+        {
+            "id": "summoning",
+            "name": "Summoning",
+            "level": 1,
+            "type": "magic",
+            "levelDescription": "Basic",
+            "description": "Troops +50",
+            "troops": 50,
+            "chances": {
+                "base": 5,
+                "factionBuff": [{ "id": "emerald", "buff": 10 }],
+                "classBuff": [{ "id": "ranger", "buff": 5 }]
+            }
+        },
+        {
+            "id": "necromancy",
+            "name": "Necromancy",
+            "level": 1,
+            "type": "magic",
+            "levelDescription": "Basic",
+            "description": "Troops +50",
+            "troops": 50,
+            "chances": {
+                "base": 2,
+                "factionBuff": [
+                    { "id": "obsidian", "buff": 10 },
+                    { "id": "sapphire", "buff": 5 },
+                    { "id": "ruby", "buff": 5 }
+                ],
+                "factionDebuff": [
+                    { "id": "emerald", "debuff": 20 }, 
+                    { "id": "pearl", "debuff": 10 }
+                ]
+            }
+        },
+        {
+            "id": "enchanting",
+            "name": "Enchanting",
+            "level": 1,
+            "type": "magic",
+            "levelDescription": "Basic",
+            "description": "+2 Knowledge",
+            "knowledge": 2,
+            "chances": {
+                "base": 10,
+                "factionBuff": [
+                    { "id": "sapphire", "buff": 10 }
+                ]
+            }
+        },
+        {
+            "id": "golem_lore",
+            "name": "Golem Lore",
+            "level": 1,
+            "type": "magic",
+            "levelDescription": "Basic",
+            "description": "+40 Troops +1 Knowledge",
+            "knowledge": 1,
+            "troops": 40,
+            "chances": {
+                "base": 5,
+                "factionBuff": [
+                    { "id": "sapphire", "buff": 10 }
+                ]
+            }
+        },
+        {
+            "id": "conjuring",
+            "name": "Conjuring",
+            "level": 1,
+            "type": "magic",
+            "levelDescription": "Basic",
+            "description": "+10 troops +2 Spellpower",
+            "spellPower": 2,
+            "troops": 10,
+            "chances": {
+                "base": 15,
+                "factionBuff": [
+                    { "id": "ruby", "buff": 10 }
+                ],
+                "factionDebuff": [
+                    { "id": "emerald", "debuff": 10 }, 
+                    { "id": "pearl", "debuff": 30 }
+                ]
+            }
+        },
+        {
+            "id": "alchemy",
+            "name": "Alchemy",
+            "level": 1,
+            "type": "magic",
+            "levelDescription": "Basic",
+            "description": "+20 gold +1 Spellpower",
+            "spellPower": 1,
+            "gold": 20,
+            "chances": {
+                "base": 10,
+                "factionBuff": [
+                    { "id": "sapphire", "buff": 10 }
+                ]
+            }
+        },
+        {
+            "id": "melee",
+            "name": "Melee",
+            "level": 1,
+            "type": "martial",
+            "levelDescription": "Basic",
+            "description": "+1 Attack",
+            "attack": 1,
+            "chances": {
+                "base": 10
+            }
+        },
+        {
+            "id": "armorer",
+            "name": "Armorer",
+            "level": 1,
+            "type": "martial",
+            "levelDescription": "Basic",
+            "description": "+1 Defense",
+            "defense": 1,
+            "chances": {
+                "base": 10
+            }
+        }
     ]
 }

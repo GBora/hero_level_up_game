@@ -3,62 +3,82 @@
         {
             "name":"Crusader",
             "id": "crusader",
+            "type": "martial",
             "description": "The martial class of the Pearl Empire.",
-            "factions": ["pearl"]
+            "factions": ["pearl"],
+            "defaultSkills": ["tactics"]
         },
         {
             "name":"Cleric",
             "id": "cleric",
+            "type": "magic",
             "description": "The magic class of the Pearl Empire.",
-            "factions": ["pearl"]
+            "factions": ["pearl"],
+            "defaultSkills": ["healing"]
         },
         {
             "name":"Battle Alchemist",
             "id": "battle_alchemist",
+            "type": "martial",
             "description": "The martial class of the Sapphire League.",
-            "factions": ["sapphire"]
+            "factions": ["sapphire"],
+            "defaultSkills": ["golem_lore"]
         },
         {
             "name":"Wizard",
             "id": "wizard",
+            "type": "magic",
             "description": "The magic class of the Sapphire League.",
-            "factions": ["sapphire"]
+            "factions": ["sapphire"],
+            "defaultSkills": ["enchanting"]
         },
         {
             "name":"Blackguard",
             "id": "blackguard",
+            "type": "martial",
             "description": "The martial class of the Obsidian Realms.",
-            "factions": ["obsidian"]
+            "factions": ["obsidian"],
+            "defaultSkills": ["necromancy"]
         },
         {
             "name":"Necromancer",
             "id": "necromancer",
+            "type": "magic",
             "description": "The magic class of the Obsidian Realms.",
-            "factions": ["obsidian"]
+            "factions": ["obsidian"],
+            "defaultSkills": ["necromancy"]
         },
         {
             "name":"Rogue",
             "id": "rogue",
+            "type": "martial",
             "description": "The martial class of the Ruby Freeholds.",
-            "factions": ["ruby"]
+            "factions": ["ruby"],
+            "defaultSkills": ["scouting"]
         },
         {
             "name":"Warlock",
             "id": "warlock",
+            "type": "magic",
             "description": "The magic class of the Ruby Freeholds.",
-            "factions": ["ruby"]
+            "factions": ["ruby"],
+            "defaultSkills": ["conjuring"]
         },
         {
             "name":"Ranger",
             "id": "ranger",
+            "type": "martial",
             "description": "The martial class of the Emerald Courts.",
-            "factions": ["emerald"]
+            "factions": ["emerald"],
+            "defaultSkills": ["archery"]
         },
         {
             "name":"Druid",
             "id": "druid",
+            "type": "magic",
             "description": "The magic class of the Emerald Courts.",
-            "factions": ["emerald"]
+            "factions": ["emerald"],
+            "defaultSkills": ["summoning"]
         }
     ]
 }
