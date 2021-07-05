@@ -1,5 +1,6 @@
 import { IFaction } from './faction.interface';
 import { IHeroClass } from './heroClass.interface';
+import { ISkill } from './skill.interface';
 
 export interface IGameState {
     heroName: string;
@@ -14,4 +15,5 @@ export interface IGameState {
     spellPower: number;
     knowledge: number;
     id: string;
+    skills: ISkill[];
 }

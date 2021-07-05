@@ -12,6 +12,7 @@ import { TownComponent } from './town/town.component';
 import { MarketplaceComponent } from './marketplace/marketplace.component';
 import { BattleComponent } from './battle/battle.component';
 import { LevelUpComponent } from './level-up/level-up.component';
+import { SkillDescriptionComponent } from './skill-description/skill-description.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { LevelUpComponent } from './level-up/level-up.component';
     TownComponent,
     MarketplaceComponent,
     BattleComponent,
-    LevelUpComponent
+    LevelUpComponent,
+    SkillDescriptionComponent
   ],
   imports: [
     BrowserModule,

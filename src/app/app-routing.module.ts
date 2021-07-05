@@ -10,7 +10,7 @@ import { TownComponent } from './town/town.component';
 const routes: Routes = [
   { path: 'new-game', component: NewGameComponent },
   { path: 'level-up', component: LevelUpComponent },
-  { path: 'market-place', component: MarketplaceComponent },
+  { path: 'marketplace', component: MarketplaceComponent },
   { path: 'town', component: TownComponent },
   { path: 'battle', component: BattleComponent },
   { path: '', redirectTo: '/new-game', pathMatch: 'full' }

@@ -12,7 +12,7 @@ export class GameStateService {
 
   constructor() { }
 
-  private save(newState: IGameState): void {
+  save(newState: IGameState): void {
     localStorage.setItem(this.localStorageKey, JSON.stringify(newState));
   }
 
@@ -38,7 +38,8 @@ export class GameStateService {
       attack: 1,
       defense: 1,
       knowledge: 1,
-      spellPower: 1
+      spellPower: 1,
+      skills: []
     };
     this.save(newState);
   }

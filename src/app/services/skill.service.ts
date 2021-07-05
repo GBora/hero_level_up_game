@@ -18,19 +18,22 @@ export class SkillService {
     const skills: ISkill[] = skillsList.skills;
     const skillWeights: number[] = [];
     const chance = new Chance();
-    // TODO generate array of weighted options
-    // Taking into account faction, class and magic/martial
     skills.forEach(skill => {
-
+      skillWeights.push(this.getSkillWeight(skill, state));
     });
-    for (let i = 0; i < nrOptions; i++) {
-      options.push(chance.pickone(skills));
+    while (options.length < nrOptions) {
+      const newSkill = chance.weighted(skills, skillWeights);
+      const index = options.indexOf(newSkill);
+      if (index === -1) {
+        options.push(newSkill);
+      }
     }
     return options;
   }
 
-  getSkillbyId(id: string): any {
-
+  getSkillbyId(id: string): ISkill {
+    const skills: ISkill[] = skillsList.skills;
+    return skills.find(skill => skill.id === id);
   }
 
   private getSkillWeight(skill: ISkill, gameState: IGameState): number {

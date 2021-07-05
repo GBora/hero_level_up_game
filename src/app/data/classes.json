@@ -9,12 +9,28 @@
             "defaultSkills": ["tactics"]
         },
         {
+            "name":"Witch-hunter",
+            "id": "witch_hunter",
+            "type": "martial",
+            "description": "Dedicated to opossing and rooting out vile magic users.",
+            "factions": ["pearl"],
+            "defaultSkills": ["magic_resistance"]
+        },
+        {
             "name":"Cleric",
             "id": "cleric",
             "type": "magic",
             "description": "The magic class of the Pearl Empire.",
             "factions": ["pearl"],
             "defaultSkills": ["healing"]
+        },
+        {
+            "name":"Court Mage",
+            "id": "court_mage",
+            "type": "magic",
+            "description": "A magician serving in the court of a noble, providing wisdom and magical power.",
+            "factions": ["pearl", "sapphire"],
+            "defaultSkills": ["abjuration"]
         },
         {
             "name":"Battle Alchemist",
@@ -65,12 +81,44 @@
             "defaultSkills": ["conjuring"]
         },
         {
+            "name":"Blood Cultist",
+            "id": "blood_cultist",
+            "type": "magic",
+            "description": "Priests and sorcerers who deal specifically in Blood Magic.",
+            "factions": ["ruby", "obsidian"],
+            "defaultSkills": ["blood_magic"]
+        },
+        {
             "name":"Ranger",
             "id": "ranger",
             "type": "martial",
             "description": "The martial class of the Emerald Courts.",
             "factions": ["emerald"],
             "defaultSkills": ["archery"]
+        },
+        {
+            "name":"Dwarf Patriarch",
+            "id": "dwarf_patriarch",
+            "type": "martial",
+            "description": "The traditional leaders of dwarf clans, Patriarchs if male Matriarchs if female.",
+            "factions": ["emerald","pearl"],
+            "defaultSkills": ["armorer","estates"]
+        },
+        {
+            "name":"Elven Prince",
+            "id": "elven_prince",
+            "type": "martial",
+            "description": "Even Princes or Princesses rule their clan holdings and lead their defense.",
+            "factions": ["emerald","ruby"],
+            "defaultSkills": ["archery","diplomacy"]
+        },
+        {
+            "name":"Noble",
+            "id": "noble",
+            "type": "martial",
+            "description": "Aristocrats entrusted with the leadership of vast estates, proficient in diplomacy and management.",
+            "factions": ["emerald", "pearl", "obsidian", "sapphire"],
+            "defaultSkills": ["estates","diplomacy"]
         },
         {
             "name":"Druid",

@@ -24,8 +24,8 @@
        </div>
        <div>
            <div class="mtb-2 mt-3">{{ 'new_game.classes' | translate }}</div> 
-           <span *ngFor="let class of this.selectedFaction.classes; let last = last">
-               {{ class }}<span *ngIf="!last">, </span>
+           <span *ngFor="let class of this.availableClasses; let last = last">
+               {{ class.name }}<span *ngIf="!last">, </span>
            </span>
        </div>
     </div>

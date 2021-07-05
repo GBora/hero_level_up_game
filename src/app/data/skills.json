@@ -183,6 +183,137 @@
             "chances": {
                 "base": 10
             }
+        },
+        {
+            "id": "estates",
+            "name": "Estates",
+            "level": 1,
+            "type": "martial",
+            "levelDescription": "Basic",
+            "description": "+100 gold + 30 troops",
+            "troops": 30,
+            "gold": 100,
+            "chances": {
+                "base": 5,
+                "factionDebuff": [
+                    { "id": "ruby", "debuff": 30 }
+                ]
+            }
+        },
+        {
+            "id": "diplomacy",
+            "name": "Diplomacy",
+            "level": 1,
+            "type": "martial",
+            "levelDescription": "Basic",
+            "description": "+ 15 troops",
+            "troops": 15,
+            "chances": {
+                "base": 10
+            }
+        },
+        {
+            "id": "earth_magic",
+            "name": "Earth Magic",
+            "level": 1,
+            "type": "magic",
+            "levelDescription": "Basic",
+            "description": "+1 Knowledge +1 Spellpower",
+            "spellPower": 1,
+            "knowledge": 1,
+            "chances": {
+                "base": 10
+            }
+        },
+        {
+            "id": "fire_magic",
+            "name": "Fire Magic",
+            "level": 1,
+            "type": "magic",
+            "levelDescription": "Basic",
+            "description": "+1 Knowledge +1 Spellpower",
+            "spellPower": 1,
+            "knowledge": 1,
+            "chances": {
+                "base": 10
+            }
+        },
+        {
+            "id": "water_magic",
+            "name": "Water Magic",
+            "level": 1,
+            "type": "magic",
+            "levelDescription": "Basic",
+            "description": "+1 Knowledge +1 Spellpower",
+            "spellPower": 1,
+            "knowledge": 1,
+            "chances": {
+                "base": 10
+            }
+        },
+        {
+            "id": "air_magic",
+            "name": "Air Magic",
+            "level": 1,
+            "type": "magic",
+            "levelDescription": "Basic",
+            "description": "+1 Knowledge +1 Spellpower",
+            "spellPower": 1,
+            "knowledge": 1,
+            "chances": {
+                "base": 10
+            }
+        },
+        {
+            "id": "abjuration",
+            "name": "Abjuration",
+            "level": 1,
+            "type": "magic",
+            "levelDescription": "Basic",
+            "description": "+2 Knowledge",
+            "spellPower": 1,
+            "knowledge": 1,
+            "chances": {
+                "base": 10,
+                "factionBuff": [
+                    { "id": "sapphire", "buff": 10 },
+                    { "id": "pearl", "buff": 10 }
+                ]
+            }
+        },
+        {
+            "id": "magic_resistance",
+            "name": "Magic Resistance",
+            "level": 1,
+            "type": "martial",
+            "levelDescription": "Basic",
+            "description": "+1 Defense +1 Knowledge",
+            "defense": 1,
+            "knowledge": 1,
+            "chances": {
+                "base": 5,
+                "factionBuff": [
+                    { "id": "pearl", "buff": 10 },
+                    { "id": "emerald", "buff": 10 }
+                ]
+            }
+        },
+        {
+            "id": "blood_magic",
+            "name": "Blood Magic",
+            "level": 1,
+            "type": "magic",
+            "levelDescription": "Basic",
+            "description": "+1 Spellpower +1 Knowledge",
+            "spellPower": 1,
+            "knowledge": 1,
+            "chances": {
+                "base": 5,
+                "factionBuff": [
+                    { "id": "ruby", "buff": 5 },
+                    { "id": "obsidian", "buff": 5 }
+                ]
+            }
         }
     ]
 }

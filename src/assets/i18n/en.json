@@ -9,6 +9,9 @@
     "level_up": {
         "title": "Level Up!",
         "con": "Congratulations",
-        "remaining":"Level ups remaining: "
+        "remaining":"Level ups remaining: ",
+        "default": "Your class gives you the following default skills:",
+        "choose": "Please choose between these options for this level up",
+        "select": "Select skill"
     }
 }
