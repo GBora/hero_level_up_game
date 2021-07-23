@@ -314,6 +314,56 @@
                     { "id": "obsidian", "buff": 5 }
                 ]
             }
+        },
+        {
+            "id": "divination_magic",
+            "name": "Divination Magic",
+            "level": 1,
+            "type": "magic",
+            "levelDescription": "Basic",
+            "description": "+1 Spellpower +2 Knowledge",
+            "spellPower": 1,
+            "knowledge": 2,
+            "chances": {
+                "base": 3,
+                "factionBuff": [
+                    { "id": "pearl", "buff": 10 },
+                    { "id": "sapphire", "buff": 5 }
+                ],
+                "classBuff": [{ "id": "cleric", "buff": 5 }]
+            }
+        },
+        {
+            "id": "leadership",
+            "name": "Leadership",
+            "level": 1,
+            "type": "martial",
+            "levelDescription": "Basic",
+            "description": "+1 Attack +1 Defense",
+            "attack": 1,
+            "defense": 1,
+            "chances": {
+                "base": 10,
+                "factionBuff": [
+                    { "id": "pearl", "buff": 5 }
+                ],
+                "classBuff": [{ "id": "crusader", "buff": 5 }]
+            }
+        },
+        {
+            "id": "scholarship",
+            "name": "Scolarship",
+            "level": 1,
+            "type": "magic",
+            "levelDescription": "Basic",
+            "description": "+1 Spellpower +1 Knowledge + 10 gold",
+            "spellPower": 1,
+            "knowledge": 1,
+            "gold": 10,
+            "chances": {
+                "base": 5,
+                "classBuff": [{ "id": "cleric", "buff": 5 }]
+            }
         }
     ]
 }

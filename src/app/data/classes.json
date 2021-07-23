@@ -25,6 +25,14 @@
             "defaultSkills": ["healing"]
         },
         {
+            "name":"Inquisitor",
+            "id": "inquisitor",
+            "type": "magic",
+            "description": "Clerics devoted to fighting heresy or those that opose the faith.",
+            "factions": ["pearl"],
+            "defaultSkills": ["divination_magic","fire_magic"]
+        },
+        {
             "name":"Court Mage",
             "id": "court_mage",
             "type": "magic",
@@ -127,6 +135,14 @@
             "description": "The magic class of the Emerald Courts.",
             "factions": ["emerald"],
             "defaultSkills": ["summoning"]
+        },
+        {
+            "name":"Archmage",
+            "id": "archmage",
+            "type": "magic",
+            "description": "A mage who is also a leader among his peers on the battlefied.",
+            "factions": ["emerald","pearl","sapphire"],
+            "defaultSkills": ["leadership","scholarship"]
         }
     ]
 }

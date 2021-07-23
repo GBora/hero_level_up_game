@@ -17,11 +17,17 @@ export class GameRouterService {
     if (state.levelUps > 0) {
       this.router.navigate(['level-up']);
     } else {
-      //TODO write up condition to send them to marketplace or town
-      // if (state.gold >= 100) {
-      //   this.router.navigate(['marketplace']);
-      // }
-      this.router.navigate(['battle']);
+      // TODO: write up condition to send them to marketplace or town
+      if (state.gold >= 100) {
+        const ran = Math.random();
+        if (ran <= 0.4) {
+          this.router.navigate(['marketplace']);
+        } else {
+          this.router.navigate(['battle']);
+        }
+      } else {
+        this.router.navigate(['battle']);
+      }
     }
 
   }
