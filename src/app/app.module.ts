@@ -13,6 +13,7 @@ import { MarketplaceComponent } from './marketplace/marketplace.component';
 import { BattleComponent } from './battle/battle.component';
 import { LevelUpComponent } from './level-up/level-up.component';
 import { SkillDescriptionComponent } from './skill-description/skill-description.component';
+import { EnemyDescriptionComponent } from './enemy-description/enemy-description.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { SkillDescriptionComponent } from './skill-description/skill-description
     MarketplaceComponent,
     BattleComponent,
     LevelUpComponent,
-    SkillDescriptionComponent
+    SkillDescriptionComponent,
+    EnemyDescriptionComponent
   ],
   imports: [
     BrowserModule,

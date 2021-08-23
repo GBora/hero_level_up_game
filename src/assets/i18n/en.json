@@ -13,5 +13,8 @@
         "default": "Your class gives you the following default skills:",
         "choose": "Please choose between these options for this level up",
         "select": "Select skill"
+    },
+    "enemy": {
+        "needed": "Needed"
     }
 }

@@ -1,0 +1,9 @@
+<div>
+    <h2>Enemy</h2>
+    <div>
+        {{ enemy.name }}
+    </div>
+    <div *ngFor="let cond in enemy.conditions">
+        {{ 'enemy.needed' | translate }} {{ cond.value }} {{ cond.stat }}
+    </div>
+</div>

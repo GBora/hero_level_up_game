@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { IFaction } from '../interfaces/faction.interface';
 import { IGameState } from '../interfaces/gameState.interface';
 import { IHeroClass } from '../interfaces/heroClass.interface';
+import { EnemyService } from './enemy.service';
 
 @Injectable({
   providedIn: 'root'
@@ -10,7 +11,7 @@ export class GameStateService {
 
   private localStorageKey = 'hlg-state';
 
-  constructor() { }
+  constructor(private enemyService: EnemyService) { }
 
   save(newState: IGameState): void {
     localStorage.setItem(this.localStorageKey, JSON.stringify(newState));
@@ -39,7 +40,8 @@ export class GameStateService {
       defense: 1,
       knowledge: 1,
       spellPower: 1,
-      skills: []
+      skills: [],
+      enemy: this.enemyService.getNewEnemy()
     };
     this.save(newState);
   }
